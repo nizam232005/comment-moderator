@@ -1,0 +1,23 @@
+{
+  "version": "v0_binary",
+  "binary_definition": "any",
+  "n_train": 127656,
+  "n_test": 31915,
+  "train_seconds": 3.95,
+  "predict_ms_per_comment": 0.0007,
+  "macro_f1": 0.8570089500837015,
+  "per_label": {
+    "not_toxic": {
+      "precision": 0.9842986867334756,
+      "recall": 0.9489710498779211,
+      "f1-score": 0.9663120882243256,
+      "support": 28670.0
+    },
+    "toxic": {
+      "precision": 0.6576977070659803,
+      "recall": 0.866255778120185,
+      "f1-score": 0.7477058119430775,
+      "support": 3245.0
+    }
+  }
+}

@@ -1,0 +1,185 @@
+{
+  "bands": [
+    {
+      "band": "0.0-0.1",
+      "share_of_traffic": 0.5635,
+      "n": 17983,
+      "actual_toxic_rate": 0.0023,
+      "accuracy": 0.9977
+    },
+    {
+      "band": "0.1-0.3",
+      "share_of_traffic": 0.2357,
+      "n": 7523,
+      "actual_toxic_rate": 0.0217,
+      "accuracy": 0.9783
+    },
+    {
+      "band": "0.3-0.7",
+      "share_of_traffic": 0.1057,
+      "n": 3375,
+      "actual_toxic_rate": 0.1766,
+      "accuracy": 0.6729
+    },
+    {
+      "band": "0.7-0.9",
+      "share_of_traffic": 0.0333,
+      "n": 1064,
+      "actual_toxic_rate": 0.5611,
+      "accuracy": 0.5611
+    },
+    {
+      "band": "0.9-1.0",
+      "share_of_traffic": 0.0617,
+      "n": 1970,
+      "actual_toxic_rate": 0.9381,
+      "accuracy": 0.9381
+    }
+  ],
+  "router_sweep": [
+    {
+      "low": 0.05,
+      "high": 0.7,
+      "auto_resolved_share": 0.4634,
+      "escalated_share": 0.5366,
+      "accuracy_on_auto": 0.9595,
+      "errors_left_in_auto": 599,
+      "share_of_all_errors_escalated": 0.6842
+    },
+    {
+      "low": 0.05,
+      "high": 0.8,
+      "auto_resolved_share": 0.4475,
+      "escalated_share": 0.5525,
+      "accuracy_on_auto": 0.9773,
+      "errors_left_in_auto": 324,
+      "share_of_all_errors_escalated": 0.8292
+    },
+    {
+      "low": 0.05,
+      "high": 0.9,
+      "auto_resolved_share": 0.4301,
+      "escalated_share": 0.5699,
+      "accuracy_on_auto": 0.9904,
+      "errors_left_in_auto": 132,
+      "share_of_all_errors_escalated": 0.9304
+    },
+    {
+      "low": 0.05,
+      "high": 0.95,
+      "auto_resolved_share": 0.4179,
+      "escalated_share": 0.5821,
+      "accuracy_on_auto": 0.9959,
+      "errors_left_in_auto": 55,
+      "share_of_all_errors_escalated": 0.971
+    },
+    {
+      "low": 0.1,
+      "high": 0.7,
+      "auto_resolved_share": 0.6585,
+      "escalated_share": 0.3415,
+      "accuracy_on_auto": 0.97,
+      "errors_left_in_auto": 630,
+      "share_of_all_errors_escalated": 0.6679
+    },
+    {
+      "low": 0.1,
+      "high": 0.8,
+      "auto_resolved_share": 0.6426,
+      "escalated_share": 0.3574,
+      "accuracy_on_auto": 0.9827,
+      "errors_left_in_auto": 355,
+      "share_of_all_errors_escalated": 0.8129
+    },
+    {
+      "low": 0.1,
+      "high": 0.9,
+      "auto_resolved_share": 0.6252,
+      "escalated_share": 0.3748,
+      "accuracy_on_auto": 0.9918,
+      "errors_left_in_auto": 163,
+      "share_of_all_errors_escalated": 0.9141
+    },
+    {
+      "low": 0.1,
+      "high": 0.95,
+      "auto_resolved_share": 0.613,
+      "escalated_share": 0.387,
+      "accuracy_on_auto": 0.9956,
+      "errors_left_in_auto": 86,
+      "share_of_all_errors_escalated": 0.9547
+    },
+    {
+      "low": 0.2,
+      "high": 0.7,
+      "auto_resolved_share": 0.8218,
+      "escalated_share": 0.1782,
+      "accuracy_on_auto": 0.9734,
+      "errors_left_in_auto": 698,
+      "share_of_all_errors_escalated": 0.6321
+    },
+    {
+      "low": 0.2,
+      "high": 0.8,
+      "auto_resolved_share": 0.806,
+      "escalated_share": 0.194,
+      "accuracy_on_auto": 0.9836,
+      "errors_left_in_auto": 423,
+      "share_of_all_errors_escalated": 0.777
+    },
+    {
+      "low": 0.2,
+      "high": 0.9,
+      "auto_resolved_share": 0.7885,
+      "escalated_share": 0.2115,
+      "accuracy_on_auto": 0.9908,
+      "errors_left_in_auto": 231,
+      "share_of_all_errors_escalated": 0.8782
+    },
+    {
+      "low": 0.2,
+      "high": 0.95,
+      "auto_resolved_share": 0.7763,
+      "escalated_share": 0.2237,
+      "accuracy_on_auto": 0.9938,
+      "errors_left_in_auto": 154,
+      "share_of_all_errors_escalated": 0.9188
+    },
+    {
+      "low": 0.3,
+      "high": 0.7,
+      "auto_resolved_share": 0.8943,
+      "escalated_share": 0.1057,
+      "accuracy_on_auto": 0.9722,
+      "errors_left_in_auto": 793,
+      "share_of_all_errors_escalated": 0.582
+    },
+    {
+      "low": 0.3,
+      "high": 0.8,
+      "auto_resolved_share": 0.8784,
+      "escalated_share": 0.1216,
+      "accuracy_on_auto": 0.9815,
+      "errors_left_in_auto": 518,
+      "share_of_all_errors_escalated": 0.7269
+    },
+    {
+      "low": 0.3,
+      "high": 0.9,
+      "auto_resolved_share": 0.8609,
+      "escalated_share": 0.1391,
+      "accuracy_on_auto": 0.9881,
+      "errors_left_in_auto": 326,
+      "share_of_all_errors_escalated": 0.8281
+    },
+    {
+      "low": 0.3,
+      "high": 0.95,
+      "auto_resolved_share": 0.8487,
+      "escalated_share": 0.1513,
+      "accuracy_on_auto": 0.9908,
+      "errors_left_in_auto": 249,
+      "share_of_all_errors_escalated": 0.8687
+    }
+  ]
+}
