@@ -3,8 +3,8 @@
   "binary_definition": "any",
   "n_train": 127656,
   "n_test": 31915,
-  "train_seconds": 3.95,
-  "predict_ms_per_comment": 0.0007,
+  "train_seconds": 0.62,
+  "predict_ms_per_comment": 0.0002,
   "macro_f1": 0.8570089500837015,
   "per_label": {
     "not_toxic": {

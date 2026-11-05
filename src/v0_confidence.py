@@ -16,6 +16,16 @@ import joblib
 import numpy as np
 from sklearn.model_selection import train_test_split
 
+
+from v0_baseline import (
+    MODELS_DIR,
+    RESULTS_DIR,
+    SEED,
+    VERSION,
+    load_data,
+    make_binary_label,
+)
+
 DECISION_THRESHOLD = 0.5  # where "toxic" is declared; not tuned or calibrated yet
 BAND_EDGES = [0.0, 0.1, 0.3, 0.7, 0.9, 1.0]
 

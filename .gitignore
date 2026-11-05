@@ -3,3 +3,4 @@ models/
 kaggle.json
 __pycache__/
 .env
+results/v1_disagreements.csv

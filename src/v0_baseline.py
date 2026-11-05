@@ -25,9 +25,10 @@ from sklearn.multiclass import OneVsRestClassifier
 # ---------------------------------------------------------------------------
 # Config
 # ---------------------------------------------------------------------------
-DATA_PATH = Path("data/train.csv")
-RESULTS_DIR = Path("results")
-MODELS_DIR = Path("models")
+ROOT = Path(__file__).resolve().parent.parent  # the project root
+DATA_PATH = ROOT / "data" / "train.csv"
+RESULTS_DIR = ROOT / "results"
+MODELS_DIR = ROOT / "models"
 
 ALL_LABELS = ["toxic", "severe_toxic", "obscene", "threat", "insult", "identity_hate"]
 
